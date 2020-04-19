@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxSoftware.ConditionTree.Sql", "FoxSoftware.ConditionTree.Sql\FoxSoftware.ConditionTree.Sql.csproj", "{2FC97920-2463-45AA-B394-7BC8A8CAFF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxSoftware.ConditionTree.Sql", "FoxSoftware.ConditionTree.Sql\FoxSoftware.ConditionTree.Sql.csproj", "{2FC97920-2463-45AA-B394-7BC8A8CAFF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxSoftware.ConditionTree", "FoxSoftware.ConditionTree\FoxSoftware.ConditionTree.csproj", "{86360608-B072-402C-9EBC-669100938CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxSoftware.ConditionTree", "FoxSoftware.ConditionTree\FoxSoftware.ConditionTree.csproj", "{86360608-B072-402C-9EBC-669100938CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxSoftware.ConditionTree.ExpressionTree", "FoxSoftware.ConditionTree.ExpressionTree\FoxSoftware.ConditionTree.ExpressionTree.csproj", "{9E0BD1C3-147D-47AB-A649-77098C30DDC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoxSoftware.ConditionTree.ExpressionTree", "FoxSoftware.ConditionTree.ExpressionTree\FoxSoftware.ConditionTree.ExpressionTree.csproj", "{9E0BD1C3-147D-47AB-A649-77098C30DDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxSoftware.ConditionTree.Tests", "FoxSoftware.ConditionTree.Tests\FoxSoftware.ConditionTree.Tests.csproj", "{9E0970E1-4786-42FF-8C48-E5580D3A44C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{765A4B04-CA5F-4CF4-ACD3-33AD00EF85E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{765A4B04-CA5F-4CF4-ACD3-33AD00EF85E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{765A4B04-CA5F-4CF4-ACD3-33AD00EF85E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{765A4B04-CA5F-4CF4-ACD3-33AD00EF85E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FC97920-2463-45AA-B394-7BC8A8CAFF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FC97920-2463-45AA-B394-7BC8A8CAFF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC97920-2463-45AA-B394-7BC8A8CAFF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,6 +29,10 @@ Global
 		{9E0BD1C3-147D-47AB-A649-77098C30DDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0BD1C3-147D-47AB-A649-77098C30DDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0BD1C3-147D-47AB-A649-77098C30DDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0970E1-4786-42FF-8C48-E5580D3A44C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0970E1-4786-42FF-8C48-E5580D3A44C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0970E1-4786-42FF-8C48-E5580D3A44C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0970E1-4786-42FF-8C48-E5580D3A44C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
